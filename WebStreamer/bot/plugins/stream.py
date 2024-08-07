@@ -96,7 +96,7 @@ async def link_command_handler(c: Client, m: Message):
 
     try:
         if not message or not message.media:
-            await m.reply_text(lang.LINK_CMD_REPLY_MESSAGE, quote=True)
+            await m.reply_text(Reply to a File, quote=True)
             return
 
         # Add the file information to the database
